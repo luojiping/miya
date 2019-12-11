@@ -1,0 +1,24 @@
+.footer{
+    overflow-x:hidden;
+    position : fixed;
+    bottom:0;
+    display : flex;
+    justify-content: space-between;
+    height:.54rem;
+    background:#FAFAFA;
+    align-items:center;
+    width:100%;
+    border-top:.01rem #eee solid;
+}
+.footer li{
+    width:25%;
+    height:.54rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    font-size:.14rem
+}
+.footer .checked{
+    color:#FF6F8F;
+}
