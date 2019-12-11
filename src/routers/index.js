@@ -1,4 +1,9 @@
-import {Index,Classify,Login} from "../pages";
+import {
+    Index,
+    Classify,
+    Login,
+    ClassifyList
+} from "../pages";
 export const mainRoutes = [{
     pathname : "/index",
     component : Index
@@ -8,5 +13,18 @@ export const mainRoutes = [{
 },{
     pathname : "/my",
     component : Login
+},{
+    pathname : "/cart",
+    component : Login 
+},{
+    pathname:"/classify/classifyList",
+    component: ClassifyList
 }]
+
+export const classifyRoutes= [
+    {
+        pathname:"/classify/classifyList",
+        component: ClassifyList
+    }
+]
 
