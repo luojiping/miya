@@ -1,12 +1,11 @@
 import React from 'react';
-import Classify from './pages/classify';
-import "./App.css";
-
+// import { BrowserRouter, Route, Redirect,Switch} from 'react-router-dom'
+import Login from './pages/login'
 function App() {
   return (
-    <div className="app">
-        <Classify />
+    <div>
+      <Login />
     </div>
-  );
+  )
 }
 export default App
