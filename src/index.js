@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
 import App from "./App";
 import {mainRoutes} from "./routers";
 import "./rem.js"
+import "./assets/css/global.css";
 ReactDom.render(
 (
     <Router>
@@ -18,3 +19,4 @@ ReactDom.render(
         </Switch>
     </Router>
 ),document.getElementById("root"))
+
