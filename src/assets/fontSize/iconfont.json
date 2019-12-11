@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1984127",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2672194",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "2985264",
+      "name": "SQ",
+      "font_class": "sq",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "6041544",
+      "name": "我 的",
+      "font_class": "meActive",
+      "unicode": "e524",
+      "unicode_decimal": 58660
+    },
+    {
+      "icon_id": "6126456",
+      "name": "搜索框 (2)",
+      "font_class": "sousuokuang",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7449357",
+      "name": "分类",
+      "font_class": "icon",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "8033788",
+      "name": "网易云音乐",
+      "font_class": "wangyiyunyinle",
+      "unicode": "eaaf",
+      "unicode_decimal": 60079
+    },
+    {
+      "icon_id": "8439691",
+      "name": "首页-选中",
+      "font_class": "yemian",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11791522",
+      "name": "购物车",
+      "font_class": "che",
+      "unicode": "e507",
+      "unicode_decimal": 58631
+    }
+  ]
+}

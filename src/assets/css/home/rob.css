@@ -1,0 +1,47 @@
+.todaylist{
+    width:100%;
+    height:2.23rem;
+    background:#FFEAE9;
+    padding-top:.1rem;
+}
+.todaylist_tit {
+    font-size: 0.24rem;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    color: #222222;
+    letter-spacing: 0.03rem;
+    /* text-align: center; */
+    line-height:.3rem;
+    height:.3rem;
+    margin-bottom:.1rem;
+}
+.todaylist_tit span {
+    color: #FC0303;
+}
+.todaylist .todaylist_content{
+    width:100%;
+    height:2rem;
+    display:flex;
+    justify-content: space-around;
+}
+.todaylist_content li{
+    width:1.09rem;
+    height:1.53rem;
+    font-size:0;
+}
+.todaylist_content li img{
+    width:1.09rem;
+    height:1.09rem;
+}
+.todaylist_content li .price{
+    width:1.09rem;
+    margin-top:.08rem;
+}
+.todaylist_content li .price span{
+    font-size:.18rem;
+    color:#FC0303;
+}
+.todaylist_content li .price i{
+    font-size:.16rem;
+    text-decoration: line-through;
+}
