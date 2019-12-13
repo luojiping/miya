@@ -1,4 +1,11 @@
-import {Index,Classify,Login,Cart,ClassifyList} from "../pages";
+import {
+    Index,
+    Classify,
+    Login,
+    Cart,
+    ClassifyList
+} from "../pages";
+
 export const mainRoutes = [{
     pathname : "/index",
     component : Index
