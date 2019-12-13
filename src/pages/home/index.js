@@ -1,7 +1,7 @@
 // 解析jsx语法
 import React, { Component,Fragment } from "react";
 import Header from "./components/header/header"
-import Footer from "./components/footer/footer";
+import Footer from "../../component/footer/footer";
 import 'antd-mobile/dist/antd-mobile.css';
 
 class Index extends Component {

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs } from 'antd-mobile';
+import Conent from "../content/conent.js"
 import "../../../../assets/css/home/tabbar.css";
-import Banner from "../content/banner"
-import Scroll from "../content/scroll"
-import Rob from "../content/rob"
 
 class TabBar extends Component {
     renderContent = tab =>
@@ -31,9 +29,7 @@ class TabBar extends Component {
                     <Tabs.DefaultTabBar {...props} page={7}/>}>
                     {this.renderContent}
                 </Tabs>
-                <Banner style={{width:"100%;height:1.8rem"}}/>
-                <Scroll/>
-                <Rob/>
+                <Conent/>
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../../../../assets/css/home/footer.css"
+import "../../assets/css/home/footer.css"
 class Header extends Component {
     render() {
         return (

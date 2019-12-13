@@ -4,7 +4,7 @@ import '../../assets/css/global.css';
 import '../../assets/css/classify/index.css';
 import SlideBar from "./component/navBar";
 import Search from "./component/search";
-import Footer from  "../home/components/footer/footer";
+import Footer from  "../../component/footer/footer";
 
 class Classify extends Component {
     constructor(props) {
