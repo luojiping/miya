@@ -19,22 +19,9 @@ export const mainRoutes = [{
     pathname : "/my",
     component : Login
 },{
-    pathname : "/cart",
-    component : Login 
-},{
     pathname:"/classify/classifyList",
     component: ClassifyList
 }]
-
-// 二级路由
-export const SecondRoutes = [{
-        pathname : "/my/list/:i",
-        component : List
-}]
-
-
-
-
 
 export const classifyRoutes= [
     {
