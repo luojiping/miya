@@ -1,10 +1,10 @@
-<<<<<<< Updated upstream
 import React from "react";
 import ReactDom from "react-dom";
 import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
 import App from "./App";
 import {mainRoutes} from "./routers";
 import "./rem.js"
+import "./assets/css/global.css";
 ReactDom.render(
 (
     <Router>
@@ -19,12 +19,4 @@ ReactDom.render(
         </Switch>
     </Router>
 ),document.getElementById("root"))
-=======
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import "./assets/css/global.css";
-import './rem';
-ReactDOM.render(<App />, document.getElementById('root'));
 
->>>>>>> Stashed changes

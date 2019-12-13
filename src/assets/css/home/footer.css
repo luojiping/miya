@@ -3,7 +3,7 @@
     position : fixed;
     bottom:0;
     display : flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height:.54rem;
     background:#FAFAFA;
     align-items:center;
@@ -17,7 +17,13 @@
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
-    font-size:.14rem
+    font-size:.14rem;
+}
+.footer li a{
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    color : #FF6F8F;
 }
 .footer .checked{
     color:#FF6F8F;
