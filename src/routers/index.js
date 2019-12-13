@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-import {Index,Classify,Login,Cart} from "../pages";
-=======
-import {
-    Index,
-    Classify,
-    Login,
-    ClassifyList
-} from "../pages";
->>>>>>> master
+import {Index,Classify,Login,Cart,ClassifyList} from "../pages";
 export const mainRoutes = [{
     pathname : "/index",
     component : Index
