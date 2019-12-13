@@ -12,7 +12,7 @@ ReactDom.render(
             {
                 // 一级路由
                 mainRoutes.map(route=>{
-                    return <Route key={route.pathname} path={route.pathname} component={route.component}/>
+                    return <Route key={route.pathname} exact path={route.pathname} component={route.component}/>
                 })
             }
             <Redirect to="/index" from="/" exact/>

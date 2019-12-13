@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import BScroll from 'better-scroll';
 import axios from 'axios';
 import '../../assets/css/global.css';
 import '../../assets/css/classify/index.css';
 import SlideBar from "./component/navBar";
 import Search from "./component/search";
+import Footer from  "../home/components/footer/footer";
 
 class Classify extends Component {
     constructor(props) {
@@ -17,14 +17,9 @@ class Classify extends Component {
                 <div className="product" >
                     <SlideBar/>
                 </div>
+                <Footer />
             </div>
         )
-    }
-    componentDidMount() {
-        axios.get('/api')
-        .then(res=>{
-            console.log(res);
-        })
     }
 }
 

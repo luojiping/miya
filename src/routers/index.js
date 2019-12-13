@@ -1,5 +1,9 @@
-import {Index,Classify,Login,List} from "../pages";
-
+import {
+    Index,
+    Classify,
+    Login,
+    ClassifyList
+} from "../pages";
 export const mainRoutes = [{
     pathname : "/index",
     component : Index
@@ -9,6 +13,12 @@ export const mainRoutes = [{
 },{
     pathname : "/my",
     component : Login
+},{
+    pathname : "/cart",
+    component : Login 
+},{
+    pathname:"/classify/classifyList",
+    component: ClassifyList
 }]
 
 // 二级路由
@@ -21,4 +31,10 @@ export const SecondRoutes = [{
 
 
 
+export const classifyRoutes= [
+    {
+        pathname:"/classify/classifyList",
+        component: ClassifyList
+    }
+]
 

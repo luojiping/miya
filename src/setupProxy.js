@@ -2,9 +2,9 @@ const proxy = require("http-proxy-middleware");
 
 module.exports =(app)=>{
     app.use("/api",proxy({
-        target:"https://m.mia.com/search:3000",
+        target:"https://m.mia.com",
         pathRewrite:{
-            "^/api":'/'
+            "^/api":'/search/getCategoryClassify'
         },
         changeOrigin: true,
         secure: true
