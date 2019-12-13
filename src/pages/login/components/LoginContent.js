@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import { Avatar,Icon } from 'antd'
+import LogConChild from './LogConChild'
 class LoginContent extends Component{
     render(){
         return(
@@ -16,31 +17,7 @@ class LoginContent extends Component{
 
                     </section>
                         {/* 全部订单部分 order*/}
-                    <section className = 'order'>
-                        {/* 后期配置路由 进行数据的渲染 */}
-                        <figure>
-                            <Icon type="profile" className = 'icon'/> 
-                            <figcaption>全部订单</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="save" className = 'icon' /> 
-                            <figcaption>待付款</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="bar-chart" className = 'icon' /> 
-                            <figcaption>待发货</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="gift" className = 'icon' /> 
-                            <figcaption>待收货</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="edit" className = 'icon' /> 
-                            <figcaption>待评价</figcaption>
-                        </figure>
-
-
-                    </section>
+                        <LogConChild />
                         {/* 优惠券部分  coupon */}
                     <section className = 'coupons'>
                         <div className  = 'coup'>
@@ -70,7 +47,7 @@ class LoginContent extends Component{
                             <img   src= 'https://img.miyabaobei.com/d1/p5/2016/11/14/e0/71/e07150ac278ec51756e2649008287c1b197297068.jpg'/>
                         </div>
                         <div className = 'loaded'>
-                            <p>立即下载</p>
+                            <p className ='pText'>立即下载</p>
                         </div>
                     </section>
                         {/* 退出登录部分 logout */}
