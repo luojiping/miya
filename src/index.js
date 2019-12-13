@@ -18,5 +18,6 @@ ReactDom.render(
             <Redirect to="/index" from="/" exact/>
         </Switch>
     </Router>
-),document.getElementById("root"))
+)
+,document.getElementById("root"))
 

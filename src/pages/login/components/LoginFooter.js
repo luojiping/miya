@@ -5,19 +5,19 @@ class LoginFooter extends Component{
         return(
                 <footer className = 'loginPublic'>
                     <figure className = 'footerFig'>
-                        <Icon type="home" className = 'footerNav' />
+                        <Icon type="home" className = 'footerIcon' />
                         <figcaption>首页</figcaption>
                     </figure>
                     <figure className = 'footerFig'>
-                        <Icon type="file-search" className = 'footerNav' />
+                        <Icon type="file-search" className = 'footerIcon' />
                         <figcaption>分类</figcaption>
                     </figure>
                     <figure className = 'footerFig'>
-                        <Icon type="shopping-cart" className = 'footerNav' />
+                        <Icon type="shopping-cart" className = 'footerIcon' />
                         <figcaption>购物车</figcaption>
                     </figure>
                     <figure className = 'footerFig'>
-                        <Icon type="user" className = 'footerNav' />
+                        <Icon type="user" className = 'footerIcon' />
                         <figcaption>我的</figcaption>
                     </figure>
                 </footer>
