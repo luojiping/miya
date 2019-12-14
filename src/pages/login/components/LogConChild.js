@@ -5,7 +5,6 @@ class LogConChild extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            // data:['全部订单','待付款','待发货','待收货','待评价']
             data:[
                 {'icon':'appstore','text':'全部订单'},
                 {'icon':'save','text':'待付款'},
@@ -39,4 +38,4 @@ class LogConChild extends Component {
     }
 }
 
-export default withRouter(LogConChild) ;
+export default withRouter(LogConChild) 

@@ -3,8 +3,10 @@ import {
     Classify,
     Login,
     Cart,
-    ClassifyList
+    ClassifyList,
+    List
 } from "../pages";
+import MyLogin from "../pages/login/myLogin";
 
 export const mainRoutes = [{
     pathname : "/index",
@@ -21,6 +23,12 @@ export const mainRoutes = [{
 },{
     pathname:"/classify/classifyList",
     component: ClassifyList
+},{
+    pathname:"/my/list",
+    component:List
+},{
+    pathname:"/mylogin",
+    component:MyLogin
 }]
 
 export const classifyRoutes= [
