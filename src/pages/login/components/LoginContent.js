@@ -1,6 +1,29 @@
 import React,{Component} from 'react'
-import { Avatar,Icon } from 'antd'
+import { Avatar, Modal, Button } from 'antd'
+import LogConChild from './LogConChild'
+import LogConCoup from './LogConCoup'
+const { confirm } = Modal;
 class LoginContent extends Component{
+
+    logOut = () =>{
+           alert(
+               '确定退出登录？',
+            Modal.confirm({
+                title: 'm.mia.com显示',
+                content: '确定退出登录？',
+                okText: '确定',
+                okType: 'danger',
+                cancelText: '取消',
+                getContainer:false
+              //   onOk() {
+              //     console.log('OK');
+              //   },
+              //   onCancel() {
+              //     console.log('Cancel');
+              //   },
+              })
+           )
+    }
     render(){
         return(
                 <main className = 'mainCon'> 
@@ -16,71 +39,25 @@ class LoginContent extends Component{
 
                     </section>
                         {/* 全部订单部分 order*/}
-                    <section className = 'order'>
-                        {/* 后期配置路由 进行数据的渲染 */}
-                        <figure>
-                            <Icon type="profile" className = 'icon'/> 
-                            <figcaption>全部订单</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="save" className = 'icon' /> 
-                            <figcaption>待付款</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="bar-chart" className = 'icon' /> 
-                            <figcaption>待发货</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="gift" className = 'icon' /> 
-                            <figcaption>待收货</figcaption>
-                        </figure>
-                        <figure>
-                            <Icon type="edit" className = 'icon' /> 
-                            <figcaption>待评价</figcaption>
-                        </figure>
-
-
-                    </section>
+                        <LogConChild />
                         {/* 优惠券部分  coupon */}
-                    <section className = 'coupons'>
-                        <div className  = 'coup'>
-                            <span className = 'span1' ><Icon type="instagram" theme="filled"  className = 'icons' /> 优惠券</span>
-                            <span className = 'span1 span2' >24张未使用 <Icon style = {{paddingLeft:'.18rem'}} type="right" /></span>
-                        </div>
-                        <div className  = 'coup'>
-                            <span className = 'span1' ><Icon type="mobile" theme="filled"  className = 'icons icons1' /> 红包</span>
-                            <span className = 'span1 span2' >0张未使用 <Icon style = {{paddingLeft:'.18rem'}} type="right" /></span>
-                        </div>
-                        <div className  = 'coup'>
-                            <span className = 'span1' ><Icon type="contacts" theme="filled" className = 'icons icons2' /> 实名认证 </span>
-                            <span className = 'span1 span2' >未认证 <Icon style = {{paddingLeft:'.18rem'}} type="right" /></span>
-                        </div>
-                        <div className  = 'coup coups'>
-                            <span className = 'span1'><Icon type="mobile" theme="filled"  className = 'icons icons1' /> 联系客服</span>
-                            <span className = 'span1 span3' >10108088 <Icon style = {{paddingLeft:'.18rem',color:'#999'}} type="right" /></span>
-                        </div>
-                        <div className  = 'coup coups'>
-                            <span className = 'span1' ><Icon type="mobile" theme="filled"  className = 'icons icons1' /> 账户绑定手机号码</span>
-                            <span className = 'span1 span3' >13993833534 <Icon style = {{paddingLeft:'.18rem',color:'#999'}} type="right" /></span>
-                        </div>
-                    </section>
+                        <LogConCoup />
                         {/* 立即下载部分 loading */}
                     <section className = 'loading'>
                         <div className = 'loaded-img'>
                             <img   src= 'https://img.miyabaobei.com/d1/p5/2016/11/14/e0/71/e07150ac278ec51756e2649008287c1b197297068.jpg'/>
                         </div>
                         <div className = 'loaded'>
-                            <p>立即下载</p>
+                            <p className ='pText'>立即下载</p>
                         </div>
                     </section>
                         {/* 退出登录部分 logout */}
-                    <section className = 'logout'>
+                    <section className = 'logout' onClick = {this.logOut}  >
                         <div className = 'out'>退出登录</div>
                     </section>
                 </main>
 
         )
     }
-
 }
 export default LoginContent

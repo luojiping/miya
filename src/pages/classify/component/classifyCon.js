@@ -15,7 +15,7 @@ class classifyCon extends Component {
                                             return (
                                                 <dl onClick={this.handleJumpList.bind(this,item.p_id)} key={index}>
                                                     <dd>
-                                                        <img className={!item.c_name?"imgSize":""} src={item.banner_image} />
+                                                        <img className= {!item.c_name?"imgSize":""} src={item.banner_image} />
                                                     </dd>
                                                     <dt>
                                                         {item.c_name}

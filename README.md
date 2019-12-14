@@ -41,13 +41,14 @@ npm install better-scroll --save
     const proxy = require("http-proxy-middleware");
 
     module.exports =(app)=>{
+        <!-- app.use() 第一个参数：要通过那个路径访问，第二个参数：proxy的配置项 -->
         app.use("/api",proxy({
-            target:"https://m.mia.com/search/getCategoryClassify?pid=18657:3000",
+            target:"https://m.mia.com/search/getCategoryClassify?pid=18657:3000",  //目标点
             pathRewrite:{
-                "^/api":'/'
+                "^/api":'/' //重写请求访问路径
             },
-            changeOrigin: true,
-            secure: true
+            changeOrigin: true, //是否允许跨域
+            secure: true   //允许https请求
         }))
     }
     + 通过axios请求数据，查看是否可以得到数据   
