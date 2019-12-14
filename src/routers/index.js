@@ -33,7 +33,7 @@ export const mainRoutes = [{
 
 export const classifyRoutes= [
     {
-        pathname:"/classify/classifyList",
+        pathname:"/classify/classifyList/:id",
         component: ClassifyList
     }
 ]

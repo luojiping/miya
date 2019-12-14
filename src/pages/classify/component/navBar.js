@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Layout, Menu } from 'antd';
-import { getNavBar } from '../../../api/api';
 import axios from 'axios';
 import ClassifyCon from './classifyCon';
 import 'antd/dist/antd.css';
@@ -61,7 +60,7 @@ class NavBar extends Component {
         )
     }
     componentDidMount() {
-        axios("/api?pid=6811")
+        axios("/api/search/getCategoryClassify?pid=6811")
         .then(res=>{
             this.setState({
                 son_category:res.data.categorysInfos.son_category
