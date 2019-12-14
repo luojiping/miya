@@ -45,6 +45,9 @@
     display: flex;
     justify-content: space-between;
 }
+.ant-menu-item-selected {
+    border-left: none;
+}
 
 /* 类别 */
 .classifyList .proclassify {

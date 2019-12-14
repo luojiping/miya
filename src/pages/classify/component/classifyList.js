@@ -34,7 +34,6 @@ class classifyList extends Component {
     }
 
     handleClick = e => {
-        console.log('click ', e);
         this.setState({
           current: e.key,
         });
@@ -51,7 +50,7 @@ class classifyList extends Component {
                         </div>
                     </div>
                     {/* 标签页 */}
-                     <Menu onClick={this.handleClick} selectedKeys={[this.state.tab]} mode="horizontal">
+                     <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
                         {
                             this.state.tab.map((item,index)=>{
                                 return (
@@ -104,7 +103,6 @@ class classifyList extends Component {
     handleTab(order) {
         axios.get('/api/s/'+this.props.match.params.id+'?order='+order+'&page=1')
         .then(res=>{
-            console.log(res);
             this.setState({
                 goods:res.data
             })
