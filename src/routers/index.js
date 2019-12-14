@@ -19,16 +19,13 @@ export const mainRoutes = [{
     pathname : "/my",
     component : Login
 },{
-    pathname : "/cart",
-    component : Login 
-},{
     pathname:"/classify/classifyList",
     component: ClassifyList
 }]
 
 export const classifyRoutes= [
     {
-        pathname:"/classify/classifyList",
+        pathname:"/classify/classifyList/:id",
         component: ClassifyList
     }
 ]

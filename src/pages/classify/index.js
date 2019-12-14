@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import '../../assets/css/global.css';
 import '../../assets/css/classify/index.css';
 import SlideBar from "./component/navBar";

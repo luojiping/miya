@@ -6,7 +6,7 @@ module.exports =(app)=>{
     app.use("/api",proxy({
         target:"https://m.mia.com",
         pathRewrite:{
-            "^/api":'/search/getCategoryClassify'
+            "^/api":'/'
         },
         changeOrigin: true,   //是否允许跨域
         secure: true    //允许https请求

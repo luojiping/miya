@@ -55,3 +55,18 @@ npm install better-scroll --save
         .then(res=>{
             console.log(res);
         })
+
+
+###  styled-components
+    +  下载
+        npm install --save styled-components
+    +  引入
+        import styled from 'styled-components'
+
+### elementui 使用   
+    + 下载
+        npm i element-ui -S
+    + 引入
+        import ElementUI from 'element-ui';
+        import 'element-ui/lib/theme-chalk/index.css';    
+    +      
