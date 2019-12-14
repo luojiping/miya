@@ -68,7 +68,7 @@ class NavBar extends Component {
         })
     }
     handleClick = (id) => {
-        axios("/api?pid="+id)
+        axios("/api/search/getCategoryClassify?pid="+id)
         .then(res=>{
             this.setState({
                 son_category:res.data.categorysInfos.son_category

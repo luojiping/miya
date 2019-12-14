@@ -31,13 +31,14 @@ class classifyCon extends Component {
                     })
                 }
             </Fragment>
-
         )
-
     }
-
-    handleJumpList(id) {
-        this.props.history.push("/classify/classifyList/cat"+id+"_jh1.html");
+     handleJumpList(id) { 
+        this.props.history.push(
+        { 
+            pathname: '/classify/classifyList/cat'+id+'_jh1.html',
+            state: { order:"normal",pages:1 } 
+        })
     }
 }
 export default withRouter(classifyCon);
