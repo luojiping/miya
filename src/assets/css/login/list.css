@@ -1,0 +1,38 @@
+.ant-tabs-nav-scroll{
+    margin-top: .44rem;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    margin: 0;
+    padding:.1rem .2rem;
+    font-size: .12rem;
+}
+
+.ant-menu-submenu-title{
+    height: .35rem !important;
+    line-height: .35rem!important
+}
+
+
+
+/* 登录页 myLogin */
+.login{
+    padding-top: .3rem;
+}
+.mylogin{
+    width: .42rem;
+    height: .42rem;
+    margin: 0 auto;
+}
+.mylogin img {
+    width: 100%;
+    height: 100%;
+}
+.ant-input-group .ant-input {
+    width: 80%;
+    height: .4rem;
+}
+
+.ant-form-item {
+    margin: .3rem 0 0 .6rem;
+}
+

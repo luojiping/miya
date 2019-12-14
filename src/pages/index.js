@@ -3,6 +3,8 @@ import Classify from "./classify";
 import Cart from "./cart"
 import Login from "./login";
 import ClassifyList from "./classify/component/classifyList";
+import List from "./login/List";
+import MyLogin  from "./login/myLogin"
 import "../assets/fontSize/iconfont.css";
 import "../assets/css/global.css"
 import "../rem";
@@ -11,5 +13,7 @@ export {
     Classify,
     Cart,
     Login,
-    ClassifyList
+    ClassifyList,
+    List,
+    MyLogin
 }

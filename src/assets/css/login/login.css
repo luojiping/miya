@@ -82,33 +82,22 @@ figure{
     display: flex;
     justify-content:space-between;
     height: .44rem;
-    border-bottom: .02rem solid #efefef;
 }
-.coups{
-    border-bottom: 0
-}
+
 .icons{
     font-size: .24rem;
     padding-right: .1rem;
-    color: #FFCC00;
 }
-.icons1{
-    color: #6699FF;
-}
-.icons2{
-    color: #ff4e88;
-}
+
 .span1{
     font-size: .14rem;
     color: #000;
     line-height: .44rem;
 }
 .span2{
-    color:#999
+    color:#999 
 }
-.span3{
-    color:#ff4e88
-}
+
 /* 下载部分 loading */
 .loading{
     height: .55rem;
