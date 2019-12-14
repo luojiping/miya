@@ -9,6 +9,7 @@
     align-items:center;
     width:100%;
     border-top:.01rem #eee solid;
+    margin:0;
 }
 .footer li{
     width:25%;
