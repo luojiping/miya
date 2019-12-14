@@ -40,11 +40,11 @@ class TabBar extends Component {
                         {...props} page={7}
                     />}>
                     <Conent />
-                    <Lists listId={this.state.tabs[0].id} />
-                    <Lists listId={this.state.tabs[1].id}/>
+                    <Lists listId={this.state.tabs[1].id} />
                     <Lists listId={this.state.tabs[2].id}/>
                     <Lists listId={this.state.tabs[3].id}/>
                     <Lists listId={this.state.tabs[4].id}/>
+                    <Lists listId={this.state.tabs[5].id}/>
                 </Tabs>
 
             </div>

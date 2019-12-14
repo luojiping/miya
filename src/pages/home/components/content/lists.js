@@ -6,7 +6,7 @@ class Lists extends Component {
         return (
             <div>
                 {/* <p>Content of {this.props}</p>  */}
-                aaaa
+                aaa{this.props.listId}
             </div>
         )
     }
