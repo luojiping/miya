@@ -1,11 +1,12 @@
 import React, { Component,Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
+import Model from './model';
 class ClassifyListList extends Component {
     render() {
         return (
            <Fragment>
                 {
-                     this.props.goods.length&&this.props.goods.map((item, index) => {
+                    this.props.goods.length&&this.props.goods.map((item, index) => {
                         return (
                         <li key={item.picture}>
                             <div className="imgBox">
@@ -19,7 +20,7 @@ class ClassifyListList extends Component {
                                 </div>
                                 <div className="priceBox">
                                     <span className="price"><i className="daole">￥</i><i className="newPrice">{item.real_price}</i><del>￥{item.market_price}</del></span>
-                                    <span className="addCart"><img src="https://img.miyabaobei.com/d1/p6/2019/01/04/b9/a6/b9a601c25385e0d8e3f622437311342f987885336.png"/></span>
+                                    <Model product={item}/>
                                 </div>
                             </div>
                         </li>

@@ -64,10 +64,24 @@ npm install better-scroll --save
     +  引入
         import styled from 'styled-components'
 
-### elementui 使用   
+
+
+ ### react-lazyload懒加载
     + 下载
-        npm i element-ui -S
+        npm install --save react-lazyload
     + 引入
-        import ElementUI from 'element-ui';
-        import 'element-ui/lib/theme-chalk/index.css';    
-    +      
+        import LazyLoad from 'react-lazyload';
+           
+
+### 配置文件路径 
+    通过...找文件，类似于函数中嵌套函数，和回调地狱一样
+    通过配置代理文件 通过@来代表当前src的路径。通过webpack做配置
+    + 让@代理src的绝对路径
+        1. 在paths.js文件中，配置：
+            appComponent:resolveApp('src/'),  //在resolve中将src拼成一个绝对路径    
+        2. paths.js在webpack.config.js中使用
+                2.1 搜索path：查看是否将node中的path模块引入进来  const paths = require('./paths');
+                2.2 之后查找alias，在alias中加上我们的写法
+                      "@":paths.appComponent   //这时候@就代表的是拼接好的路径
+        3.  之后使用即可，只要是src下面的路径，都可以使用@表示
+

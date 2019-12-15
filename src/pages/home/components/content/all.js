@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 
 class All extends Component {
     render() {
+        console.log(this.props.goods.background)
         return (
             <>
                 <div className="yearTitle" style={{background:this.props.goods.background === 1 ? "#FDD6DB" : "#edf9ff"}}>
