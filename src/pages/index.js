@@ -2,9 +2,10 @@ import Index from "./home";
 import Classify from "./classify";
 import Cart from "./cart"
 import Login from "./login";
-import ClassifyList from "./classify/component/classifyList";
+import ClassifyList from "./classify/component/classifyList/classifyList";
 import List from "./login/components/List";
 import MyLogin  from "./login/components/myLogin";
+import HomeList from "./home/components/list/homeList.js";
 import "../assets/fontSize/iconfont.css";
 import "../assets/css/global.css";
 import "../rem";
