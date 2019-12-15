@@ -52,7 +52,7 @@ class LoginContent extends Component{
                         </div>
                     </section>
                         {/* 退出登录部分 logout */}
-                    <section className = 'logout' onClick = {this.logOut}  >
+                    <section className = 'logout' onClick = {this.logOut}>
                         <div className = 'out'>退出登录</div>
                     </section>
                 </main>

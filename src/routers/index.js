@@ -6,7 +6,7 @@ import {
     ClassifyList,
     List
 } from "../pages";
-import MyLogin from "../pages/login/myLogin";
+import MyLogin from "../pages/login/components/myLogin";
 
 export const mainRoutes = [{
     pathname : "/index",

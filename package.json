@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "axios": "^0.19.0",
-    "redux-thunk": "^2.3.0",
     "babel-plugin-import": "^1.13.0",
-    "http-proxy-middleware": "^0.20.0"
+    "http-proxy-middleware": "^0.20.0",
+    "redux-thunk": "^2.3.0"
   }
 }

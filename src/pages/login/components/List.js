@@ -1,20 +1,17 @@
 import React, { Component } from 'react'
-import LoginHeader from './components/LoginHeader'
-import Lxz from '../../pages/classify/index'
-import Ljp from '../../pages/home/index'
+import LoginHeader from './LoginHeader'
+import {Switch,Route,Redirect} from 'react-router-dom'
+import Lxz from '../../classify/index'
+import Ljp from '../../home/index'
 import { Tabs } from 'antd'
-import '../../assets/css/login/list.css'
+import '../../../assets/css/login/list.css'
 const { TabPane } = Tabs;
 
 class List extends Component {
     constructor(props){
         super(props)
         this.state= {
-            data:[
-                {'title':'独家甄选'},
-                {'title':'独家甄选'},
-                {'title':'独家甄选'}
-            ]
+            data:[]
         }
     }
     render() {
@@ -23,7 +20,6 @@ class List extends Component {
                 <LoginHeader />
                 <Tabs >
                     <TabPane tab="全部" key="1">
-                       
                     </TabPane>
                     <TabPane tab="待付款" key="2">
                         <Lxz />
@@ -41,6 +37,6 @@ class List extends Component {
         );
     }
 }
-
+ 
 
 export default List
