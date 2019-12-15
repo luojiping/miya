@@ -2,7 +2,7 @@ import Index from "./home";
 import Classify from "./classify";
 import Cart from "./cart"
 import Login from "./login";
-import ClassifyList from "./classify/component/classifyList";
+import ClassifyList from "./classify/component/classifyList/classifyList";
 import List from "./login/List";
 import MyLogin  from "./login/myLogin"
 import HomeList from "./home/components/list/homeList";
