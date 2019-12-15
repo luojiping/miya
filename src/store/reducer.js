@@ -1,5 +1,7 @@
-import {combineReducers} from "redux";
+import {combineReducers} from 'redux'
 
-const reducers  = combineReducers({
-    
+import myLogin from '../pages/login/reducer'
+const reducers = combineReducers({
+    myLogin
 })
+export default reducers
