@@ -9,6 +9,7 @@
     align-items:center;
     width:100%;
     border-top:.01rem #eee solid;
+    margin:0;
 }
 .footer li{
     width:25%;
@@ -24,6 +25,7 @@
     display:flex;
     align-items: center;
     color : #FF6F8F;
+    /* color:#333; */
 }
 .footer .checked{
     color:#FF6F8F;

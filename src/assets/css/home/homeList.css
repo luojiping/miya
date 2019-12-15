@@ -1,0 +1,96 @@
+.homeHeader {
+    width:100%;
+    height:.4rem;
+    display:flex;
+    justify-content: space-between;
+    padding : 0 .1rem;
+    background:#fff;
+    align-items:center;
+    border-bottom:.01rem solid #ddd;
+}
+.homeHeader span{
+    font-size:.16rem;
+    color:#333;
+}
+.homeList{
+    width:100%;
+    height:100%;
+    
+}
+.homeList .saleLists{
+    width:100%;
+    height:1.5rem;
+    display:flex;
+    padding:0 .1rem;
+    align-items: center;
+    background:#fff;
+    margin-bottom:.04rem;
+}
+.homeList .saleLists .img{
+    width:1.2rem;
+    height:1.2rem;
+    margin-right:.1rem;
+}
+.homeList .saleLists .img img{
+    width:100%;
+    height:100%;
+}
+.homeList .saleLists .saleList{
+    min-height:1.5rem;
+    overflow:hidden;
+    padding-top:.16rem;
+    width:65%;
+}
+.homeList .saleLists .saleList .title{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    color:#222;
+    font-size:.16rem;
+    line-height:.16rem;
+}
+.homeList .saleLists .saleList .introduce{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    color: #666;
+    font-size:.14rem;
+}
+.homeList .saleLists .saleList .sale{
+    font-size:.14rem;
+    color:#666;
+}
+.homeList .saleLists .saleList .sale span{
+    color:#fc285d;
+}
+.saleList .saleBottom{
+    display:flex;
+    justify-content: space-between;
+}
+.saleList .saleBottom .priceLeft .alone{
+    color: #999;
+    font-size:.14rem;
+    line-height:.14rem;
+    margin-top:.18rem;
+}
+.saleList .saleBottom .priceLeft .alone span{
+    color: #999;
+    font-size:.14rem;
+    text-decoration: line-through;
+    line-height:.14rem;
+}
+.saleList .saleBottom .priceLeft .price{
+    color: #fc285d;
+    font-size:.18rem;
+    line-height:.18rem;
+    margin-top:.1rem;
+}
+.saleList .saleBottom .go{
+    background:#ff4a4a;
+    font-size:.16rem;
+    line-height:.4rem;
+    height:.4rem;
+    width:.8rem;
+    color:#fff;
+    text-align: center;
+    border-radius:.1rem;
+    margin-top:.18rem;
+}

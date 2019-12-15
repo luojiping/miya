@@ -1,0 +1,91 @@
+.second{
+    width:100%;
+    height:100%;
+    background:#fff;
+}
+.types{
+    width:100%;
+    height:2.11rem;
+    padding-top:.2rem;    
+}       
+.types .type{
+    width:25%;
+    height:.98rem;
+    float:left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.types .type img{
+    width:.59rem;
+    height:.59rem;
+    border-radius:50%;
+}
+.types .type .title{
+    font-size:.14rem;
+    line-height:.14rem;
+    color:#333;
+}
+.types .secondlists{
+    width:100%;
+    height:100%;
+}
+.secondlists .secondlist{
+    float: left;
+    width: 48%;
+    border: .01rem solid hsl(0, 0%, 95%);
+    font-size:.12rem;
+    height:2.6rem;
+    border-radius:.1rem;
+    padding:.1rem;
+    margin:1%
+}
+.secondlists .secondlist .pricture{
+    width:100%;
+    height:1.8rem;
+}
+.pricture img{
+    width:100%;
+    height:100%;
+}
+.secondlists .secondlist .about{
+    width:100%;
+    height:.53rem;
+}
+.secondlists .secondlist .about .title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: .16rem;
+    line-height:.16rem;
+    color: #222;
+    margin-bottom:.12rem;
+}
+.about .sale{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .sale .wholesale .already{
+    color: #666;
+    font-size: .14rem;
+    line-height:.14rem;
+}
+.wholesale .price{
+    font-size: .16rem;
+    color: #fc285d;
+    line-height:.16rem;
+    margin-top:0
+}
+.sale .go{
+    cursor: pointer;
+    background: linear-gradient(270deg,rgba(252,2,113,1) 0%,rgba(252,97,64,1) 100%);
+    border-radius: .3rem;
+    line-height:.35rem;
+    height:.35rem;
+    text-align:center;
+    width:.6rem;
+    color:#fff;
+    font-size:.14rem;
+}

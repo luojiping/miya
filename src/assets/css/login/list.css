@@ -1,0 +1,56 @@
+.ant-tabs-nav-scroll{
+    margin-top: .44rem;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    margin: 0;
+    padding:.1rem .2rem;
+    font-size: .12rem;
+}
+
+.ant-menu-submenu-title{
+    height: .35rem !important;
+    line-height: .35rem!important
+}
+
+
+/* 登录页 mylogin */
+.mylogin{
+    margin-top: .4rem;
+}
+.logImg{
+    margin-bottom: .3rem;
+}
+.loginImg{
+    width:.41rem;
+    height: .41rem;
+    margin: 0 auto;
+}
+.loginImg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.ant-btn-primary{
+    width: 80%;
+    height: .4rem;
+    background: #ff4e88;
+    border-color:#ff4e88 ;
+    margin-left: .3rem;
+}
+.ant-input-affix-wrapper{
+    margin-left: .3rem;
+}
+.ant-form-explain{
+    margin-left: .3rem;
+}
+ .ant-input{
+    width: 80%;
+    height: .4rem;
+   
+}
+.ant-input-affix-wrapper:hover .ant-input{
+    border-color:#ff4e88 !important
+}
+/* span{
+    color: #fff;
+} */

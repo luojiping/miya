@@ -2,7 +2,6 @@ import React, { Component,Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 class classifyCon extends Component {
     render() {
-        console.log(this.props.son_category);
         return (
             <Fragment>
                {
@@ -14,9 +13,9 @@ class classifyCon extends Component {
                                     {
                                         items.categorys.map((item,index)=>{
                                             return (
-                                                <dl onClick={this.handleJumpList} key={index}>
+                                                <dl onClick={this.handleJumpList.bind(this,item.p_id)} key={index}>
                                                     <dd>
-                                                        <img className={!item.c_name?"imgSize":""} src={item.banner_image} />
+                                                        <img className= {!item.c_name?"imgSize":""} src={item.banner_image} />
                                                     </dd>
                                                     <dt>
                                                         {item.c_name}
@@ -32,14 +31,14 @@ class classifyCon extends Component {
                     })
                 }
             </Fragment>
-
         )
-
     }
-
-
-    handleJumpList = () => {
-        this.props.history.push("/classify/classifyList");
+     handleJumpList(id) { 
+        this.props.history.push(
+        { 
+            pathname: '/classify/classifyList/cat'+id+'_jh1.html',
+            state: { order:"normal",pages:1 } 
+        })
     }
 }
 export default withRouter(classifyCon);
