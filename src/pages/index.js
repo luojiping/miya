@@ -5,6 +5,7 @@ import Login from "./login";
 import ClassifyList from "./classify/component/classifyList";
 import List from "./login/List";
 import MyLogin  from "./login/myLogin"
+import HomeList from "./home/components/list/homeList";
 import "../assets/fontSize/iconfont.css";
 import "../assets/css/global.css"
 import "../rem";
@@ -15,5 +16,6 @@ export {
     Login,
     ClassifyList,
     List,
-    MyLogin
+    MyLogin,
+    HomeList
 }

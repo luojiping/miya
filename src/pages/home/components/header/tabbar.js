@@ -15,23 +15,10 @@ class TabBar extends Component {
             { title: '美食', id: "25" },
             { title: '童装', id: "26" },
             { title: '百货', id: "27" },
-            { title: '女装', id: "28" },
-            { title: '生鲜', id: "29" },
+            { title: '女装', id: "124" },
+            { title: '生鲜', id: "144" },
         ]
     }
-    // renderContent = tab =>
-    //     (
-    //         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
-    //             {/* {
-    //                 this.state.tabs.map((item, index) => {
-    //                     return (
-    //                         // console.log(item.id)
-    //                         item.id === 0 ? (<Conent />) : (<Lists tabId={item.id} />)
-    //                     )
-    //                 })
-    //             } */}
-    //         </div>
-    //     );
     render() {
         return (
             <div className="tabbar">
@@ -45,8 +32,11 @@ class TabBar extends Component {
                     <Lists listId={this.state.tabs[3].id}/>
                     <Lists listId={this.state.tabs[4].id}/>
                     <Lists listId={this.state.tabs[5].id}/>
+                    <Lists listId={this.state.tabs[6].id} />
+                    <Lists listId={this.state.tabs[7].id}/>
+                    <Lists listId={this.state.tabs[8].id}/>
+                    <Lists listId={this.state.tabs[9].id}/>
                 </Tabs>
-
             </div>
         )
     }

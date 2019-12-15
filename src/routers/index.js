@@ -4,7 +4,8 @@ import {
     Login,
     Cart,
     ClassifyList,
-    List
+    List,
+    HomeList
 } from "../pages";
 import MyLogin from "../pages/login/myLogin";
 
@@ -21,7 +22,7 @@ export const mainRoutes = [{
     pathname : "/my",
     component : Login
 },{
-    pathname:"/classify/classifyList",
+    pathname:"/classify/classifyList/:id",
     component: ClassifyList
 },{
     pathname:"/my/list",
@@ -37,4 +38,8 @@ export const classifyRoutes= [
         component: ClassifyList
     }
 ]
+export const secondRoutes = [{
+    pathname:"/index/indexTab",
+    component:HomeList
+}]
 

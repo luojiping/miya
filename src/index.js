@@ -9,6 +9,7 @@ ReactDom.render(
 (
     <Router>
         <Switch>
+            <Route path="/index/indexTab" render={()=><App/>}/>
             {
                 // 一级路由
                 mainRoutes.map(route=>{
