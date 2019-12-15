@@ -50,4 +50,5 @@ table {border-collapse: collapse;
 
 #root {
     height: 100%;
+    box-sizing: border-box;
 }

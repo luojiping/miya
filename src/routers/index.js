@@ -21,7 +21,7 @@ export const mainRoutes = [{
     pathname : "/my",
     component : Login
 },{
-    pathname:"/classify/classifyList",
+    pathname:"/classify/classifyList/:id",
     component: ClassifyList
 },{
     pathname:"/my/list",
