@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",
+    "@tjoskar/react-lazyload-img": "^1.2.3",
     "antd": "^3.26.1",
     "antd-mobile": "^2.3.1",
     "babel-eslint": "10.0.3",
@@ -147,6 +148,24 @@
     "watchPlugins": [
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
+    ],
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "style": "css"
+        },
+        "ant"
+      ],
+      [
+        "import",
+        {
+          "libraryName": "antd-mobile",
+          "style": "css"
+        },
+        "antd-mobile"
+      ]
     ]
   }
 }
