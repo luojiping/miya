@@ -13,6 +13,7 @@ ReactDom.render(
     <Provider store = {store}>
         <Router>
         <Switch>
+            <Route path="/index/indexTab" render={()=><App/>}/>
             {
                 // 一级路由
                 mainRoutes.map(route=>{

@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1083447",
+      "name": "回退",
+      "font_class": "gengduoxinxi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "1984127",
       "name": "播放",
       "font_class": "bofang",
@@ -27,6 +34,13 @@
       "unicode_decimal": 58627
     },
     {
+      "icon_id": "3200482",
+      "name": "客服 ",
+      "font_class": "kefucopy",
+      "unicode": "e8d7",
+      "unicode_decimal": 59607
+    },
+    {
       "icon_id": "6041544",
       "name": "我 的",
       "font_class": "meActive",
@@ -37,8 +51,15 @@
       "icon_id": "6126456",
       "name": "搜索框 (2)",
       "font_class": "sousuokuang",
-      "unicode": "e602",
-      "unicode_decimal": 58882
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6348444",
+      "name": "回退",
+      "font_class": "huitui",
+      "unicode": "e501",
+      "unicode_decimal": 58625
     },
     {
       "icon_id": "7449357",

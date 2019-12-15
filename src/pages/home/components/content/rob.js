@@ -85,7 +85,7 @@ class Rob extends Component {
                     data: arrAll
                 })
 
-                console.log(this.state.data)
+                // console.log(this.state.data)
             })
     }
     // 获取axios

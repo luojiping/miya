@@ -15,5 +15,6 @@ export {
     Login,
     ClassifyList,
     List,
-    MyLogin
+    MyLogin,
+    HomeList
 }

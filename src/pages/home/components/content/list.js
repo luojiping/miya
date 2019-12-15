@@ -1,6 +1,4 @@
 import React, { Component, useImperativeHandle } from 'react'
-// 引入axios，请求数据
-import axios from "axios"
 import "../../../../assets/css/home/list.css"
 class List extends Component {
     state = {
