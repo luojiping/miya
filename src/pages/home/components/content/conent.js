@@ -7,7 +7,7 @@ class Conent extends Component {
     render() {
         return (
            <>
-                <Banner style={{width:"100%;height:1.8rem"}}/>
+                <Banner/>
                 <Scroll/>
                 <Rob />
            </>

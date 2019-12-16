@@ -8,6 +8,7 @@ class classifyList extends Component {
     constructor(props) {
         super(props);
         this.state ={
+            current:"0",
             tab:[
                     {
                         choose_name:"人气",
