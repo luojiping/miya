@@ -85,3 +85,12 @@ npm install better-scroll --save
                       "@":paths.appComponent   //这时候@就代表的是拼接好的路径
         3.  之后使用即可，只要是src下面的路径，都可以使用@表示
 
+### 图片的懒加载
+    + 下载
+        npm install react-lazyload-img --save
+    + 引入
+        import { LazyLoadImage} from '@tjoskar/react-lazyload-img';
+    + 将要渲染的图片包裹
+         <LazyLoadImage defaultImage={this.state.img} image={item.picture} alt="沛多力儿童成长绵羊奶调制乳粉"/>
+### 路由的懒加载 【官方推荐的是route-lazy】
+    + 下载 npm i react-loadable -S
